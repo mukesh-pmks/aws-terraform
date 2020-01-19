@@ -37,7 +37,7 @@ variable "Subnet-db-CIDR" {
 }
 
 variable "key_name" {
-    default = ""
+    default = "test2"
     description = "the ssh key to use in the EC2 machines"
 }
 
